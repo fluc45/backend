@@ -1,0 +1,14 @@
+{
+  "contatos": [
+    {
+      "id": "7b9e",
+      "nome": "Maria",
+      "email": "maria@iesb.br"
+    },
+    {
+      "id": "15f5",
+      "nome": "Pedro",
+      "email": "peredro@iesb.br"
+    }
+  ]
+}
