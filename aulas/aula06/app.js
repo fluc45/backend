@@ -13,8 +13,9 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 
 app.use("/", indexRouter);
-app.use("/tarefas", tarefaRouter)
+app.use("/tarefas", tarefaRouter);
 
 module.exports = app;
 
-//apagar linhas 7 13 18 e 2
+//apagar linhas 18 15 7 e 2
+//wayground.com para testesinhos da matéria
