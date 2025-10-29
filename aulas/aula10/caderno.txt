@@ -1,0 +1,15 @@
+Para decodificar um jwt, use:
+jwt.io
+
+comandos iniciais:
+npx express-generator --no-view aula10
+cd aula10
+npm install
+npm install dotenv jsonwebtoken
+npm install nodemon --save-dev
+
+apagar pasta public
+no package.json, criar o script
+"dev": "nodemon ./bin/www" 
+criar .env
+"require("dotenv").config();" no app.js
