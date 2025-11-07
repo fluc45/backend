@@ -3,3 +3,8 @@ cd aula11
 npm install
 npm install swagger-ui-express yaml
 npm install --save-dev nodemon
+
+Para testar o swagger da documentação:
+abra
+http://localhost:3000/api-docs/
+no navegador
