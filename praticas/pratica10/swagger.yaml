@@ -1,0 +1,20 @@
+openapi: 3.0.0
+info:
+  title: Minha API REST
+  version: 0.1
+servers:
+  - url: http://localhost:3000/
+tags:
+  - name: usuarios
+paths:
+  /usuarios:
+    post:
+      tags: 
+      - usuarios
+      requestBody:
+        content:
+          application/json:
+            schema
+components:
+  schemas:
+  securitySchemes:
